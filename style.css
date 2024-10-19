@@ -201,6 +201,31 @@ i {
 .tilt-4{
     transform: perspective(1000px) rotate(8deg); /* Tilt effect for image 3 */
 }
+.tilt-5 {
+    transform: perspective(1000px) rotate(-3deg); /* Tilt effect for image 1 */
+}
+.tilt-6 {
+    transform: perspective(1000px) rotate(5deg); /* Tilt effect for image 2 */
+}
+.tilt-7 {
+    transform: perspective(1000px) rotate(8deg); /* Tilt effect for image 3 */
+}
+.tilt-8 {
+    transform: perspective(1000px) rotate(-5deg); /* Tilt effect for image 3 */
+}
+.tilt-9 {
+    transform: perspective(1000px) rotate(5deg); /* Tilt effect for image 1 */
+}
+.tilt-10 {
+    transform: perspective(1000px) rotate(-3deg); /* Tilt effect for image 2 */
+}
+.tilt-11 {
+    transform: perspective(1000px) rotate(-5deg); /* Tilt effect for image 3 */
+}
+.tilt-12 {
+    transform: perspective(1000px) rotate(8deg); /* Tilt effect for image 3 */
+}
+
 
 #crop-image {
     width: 300px; /* Set a fixed width */
