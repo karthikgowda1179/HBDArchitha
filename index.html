@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>###</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="output.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
+    <script src="https://kit.fontawesome.com/c5e4078158.js" crossorigin="anonymous"></script>
+  </head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3f4f6;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .login-container h1 {
+            font-size: 2rem;
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="password"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+        }
+
+        .login-container button {
+            background-color: #ff6b6b;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .login-container button:hover {
+            background-color: #e84393;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 0.9rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Movie name of Your  Favorite Movie</h1>
+
+        <input type="password" id="passwordInput" placeholder="Enter Password">
+        <p class="error-message" id="errorMessage">Incorrect password. Please try again.</p>
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+  <script src="main1.js"></script>
+
+</body>
+</html>

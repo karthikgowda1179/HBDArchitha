@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Architha</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link href="output.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+    </style>
+    <script src="https://kit.fontawesome.com/c5e4078158.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-flower bg-cover">
+    <div class="container">
+      <div
+        class="w-5/6 mt-16 mx-auto p-16 bg-letter bg-cover bg-no-repeat border border-gray-300 shadow-lg shadow-gray-500/50 rounded-lg"
+      >
+        <h1 class="text-gray-500 text-2xl text-left font-bold font-courier">
+          Dear Architha,
+        </h1>
+        <p class="text-gray-500 text-left text-base font-courier mt-10">
+          Happy Birthday to you <br />
+          
+        </p>
+        <p class="text-gray-500 text-left text-base font-courier mt-5">
+          
+        </p>
+        <p class="text-gray-500 text-left text-base font-courier mt-5">
+          
+        </p>
+        <p class="text-gray-500 text-left text-xl font-courier mt-5">
+          
+        </p>
+        
+        <div class="w-full grid grid-cols-1 justify-items-end mt-20">
+          <img
+            src="assets\images\sign.png"
+            alt=""
+            class="w-35 h-32 mr-10"
+          />
+          <p class="text-2xl font-courier text-gray-500">Karthik S</p>
+        </div>
+      </div>
+      <div class="">
+        <p class="text-gray-600 text-2xl text-center mt-20 px-36 font-semibold font-sans">
+          Heyy! There's one more thing , a preset
+        </p>
+      </div>
+      <div class="bigbook">
+        <!-- Previous Button -->
+        <button id="prev-btn">
+          <p><i class="fa-solid fa-arrow-left"></i></p>
+        </button>
+        <!-- Book -->
+        <div id="book" class="book">
+          <!-- Paper 1 -->
+          <div id="p1" class="paper">
+            <div class="front">
+              <div id="f1" class="front-content">
+                <div class="bg-cover">
+                  <img src="assets/images/A Secret Kept Too Long.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b1" class="back-content">
+
+            
+                
+                  <div class="image-container">
+                    <div class="image-border tilt-1" id="image-border">
+                        <img id="crop-image" src="assets/images/WhatsApp Image 2024-10-15 at 10.22.02 PM.jpeg" alt="Image 1">
+                       
+                    </div>
+                    <br>
+                </div>
+                <div class="image-container">
+                    <div class="image-border tilt-2">
+                        <img id="crop-image" src="assets/images/WhatsApp Image 2024-10-15 at 10.22.03 PM.jpeg" alt="Image 2">
+                        
+                    </div>
+                </div>
+                
+              
+              </div>
+            </div>
+          </div>
+          <!-- Paper 2 -->
+          <div id="p2" class="paper">
+            <div class="front">
+              <div id="f2" class="front-content">
+                <div class="image-container">
+                  <div class="image-border tilt-3" id="image-border">
+                      <img id="crop-image" src="assets/images/WhatsApp Image 2024-10-19 at 4.33.19 PM.jpeg" alt="Image 1">
+                     
+                  </div>
+                  <br>
+              </div>
+              <div class="image-container">
+                  <div class="image-border tilt-4">
+                      <img id="crop-image" src="assets/images/WhatsApp Image 2024-10-15 at 10.22.03 PM.jpeg" alt="Image 2">
+                      
+                  </div>
+              </div>
+
+
+
+              </div>
+            </div>
+            <div class="back">
+              <div id="b2" class="back-content">
+                
+
+
+
+              </div>
+            </div>
+          </div>
+          <!-- Paper 3 -->
+          <div id="p3" class="paper">
+            <div class="front">
+              <div id="f3" class="front-content">
+                <p>
+                  f3
+                  
+                </p>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b3" class="back-content">
+                <p>
+                  b3
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Paper 4 -->
+          <div id="p4" class="paper">
+            <div class="front">
+              <div id="f4" class="front-content">
+                <p>
+                  f4
+                  
+                </p>
+              </div>
+            </div>
+            <div class="back">
+              <div id="b4" class="back-content">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Next Button -->
+        <button id="next-btn">
+          <audio id="audio" src="assets/audio/01.Aakaashavella Master-DesiMu6.com.mp3" preload="auto"></audio>
+          <p><i class="fa-solid fa-arrow-right"></i></p>
+
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+  <script>
+        // Get references to the button and audio elements
+        const playButton = document.getElementById('next-btn');
+        const audio = document.getElementById('audio');
+
+        // Set a flag to track if the audio has been played
+        let hasPlayed = false;
+
+        // Add an event listener to the button
+        playButton.addEventListener('click', function() {
+            if (!hasPlayed) {
+                audio.play(); // Play the audio
+                hasPlayed = true; // Set the flag to true
+                playButton.disabled = false; // Optionally disable the button after playing
+            }
+        });
+    </script>
+</html>
