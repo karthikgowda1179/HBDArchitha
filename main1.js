@@ -1,6 +1,6 @@
 function checkPassword() {
     const password = document.getElementById('passwordInput').value;
-    const correctPassword = "qwer";
+    const correctPassword = "Mungaru Male 2";
     const errorMessage = document.getElementById('errorMessage');
     
     if (password === correctPassword) {
